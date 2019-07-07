@@ -1,0 +1,30 @@
+.hamburger {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    font-size: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
+nav {
+    position: fixed;
+    height: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.hamburger.on {
+    bottom: 500px;
+    transform: rotate(180deg);
+}
+
+nav.on {
+    height: 480px;
+}
+
+.wrapper {
+    margin: 10px 80px;
+}
